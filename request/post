@@ -1,0 +1,9 @@
++++
+title = {{ replace Name "-" " " | .Title }}
+author = {{ .User }}
+date = {{ Date }}
+tags = {{ .Tags }}
+categories = {{ .Categories }}
+short = {{ .Short }}
+description = {{ .Description }}
++++#msg
